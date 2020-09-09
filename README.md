@@ -13,7 +13,7 @@ Here's how the files are laid out.
 
 ` ekf.py ` : : The code 
 
-` true_data.csv ` | ` sen_pos_data.csv ` | ` sen_acc_data.csv`  : : These are the data files that will be used in running the code. They represents the **True Data** without any noise (representing a perfect world - which will be used to compare our estimated states) and **Sensor Data** with added noise (representing real-world equivalent - which will be used as measurement taken from a sensor). 
+` true_odometry.csv ` | ` sensor_odom.csv `   : : These are the data files that will be used in running the code. They represents the **True Data** without any noise (representing a perfect world - which will be used to compare our estimated states) and **Sensor Data** with added noise (representing real-world equivalent - which will be used as measurement taken from a sensor). 
 
 
 
